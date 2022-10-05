@@ -4,16 +4,6 @@ allow-lan: true
 mode: Rule
 log-level: info
 external-controller: :9090
-dns:
-  enabled: true
-  nameserver:
-    - 119.29.29.29
-    - 223.5.5.5
-  fallback:
-    - 8.8.8.8
-    - 8.8.4.4
-    - tls://1.0.0.1:853
-    - tls://dns.google:853
 proxies:
   - {name: QQ:2177084988, server: 111.111.111.222, port: 443, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 41755:q13433801326, obfs-param: ""}
   - {name: 🇷🇺 俄罗斯a RT, server: eduall.buzzline.org, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 41755:q13433801326, obfs-param: ""}
@@ -66,64 +56,63 @@ proxies:
   - {name: 🇭🇰 公网 | 香港 | 流媒体, server: 112.30.145.225, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: 0662bca2-6225-4159-8e68-806eaa4f6daf}
   - {name: 🇯🇵 公网 | 日本 | 流媒体, server: 112.30.145.225, port: 20005, type: ss, cipher: chacha20-ietf-poly1305, password: 0662bca2-6225-4159-8e68-806eaa4f6daf}
   - {name: 🇺🇸 公网 | 美国 | 流媒体, server: 112.30.145.225, port: 20011, type: ss, cipher: chacha20-ietf-poly1305, password: 0662bca2-6225-4159-8e68-806eaa4f6daf}
-  - {name: 🇹🇼 公网 | 台湾 | 流媒体, server: 112.30.145.225, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: 0662bca2-6225-4159-8e68-806eaa4f6daf}
+  - {name: 🇨🇳 公网 | 台湾 | 流媒体, server: 112.30.145.225, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: 0662bca2-6225-4159-8e68-806eaa4f6daf}
   - {name: 🇯🇵 备用 | 日本 | 流媒体, server: zz.luosi.me, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 0662bca2-6225-4159-8e68-806eaa4f6daf}
   - {name: 🇭🇰 备用 | 香港 | 流媒体, server: zz.luosi.me, port: 10000, type: ss, cipher: chacha20-ietf-poly1305, password: 0662bca2-6225-4159-8e68-806eaa4f6daf}
   - {name: 🇺🇸 备用 | 美国 | 流媒体, server: zz.luosi.me, port: 10002, type: ss, cipher: chacha20-ietf-poly1305, password: 0662bca2-6225-4159-8e68-806eaa4f6daf}
-  - {name: 🇹🇼 备用 | 台湾 | 流媒体, server: zz.luosi.me, port: 10003, type: ss, cipher: chacha20-ietf-poly1305, password: 0662bca2-6225-4159-8e68-806eaa4f6daf}
-  - {name: 🇷🇺 俄罗斯免流001, server: ru1.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: baiducdncmn2.inter.iqiyi.com}}}
-  - {name: 🇷🇺 俄罗斯免流002, server: ru2.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: baiducdncmn2.inter.iqiyi.com}}}
+  - {name: 🇨🇳 备用 | 台湾 | 流媒体, server: zz.luosi.me, port: 10003, type: ss, cipher: chacha20-ietf-poly1305, password: 0662bca2-6225-4159-8e68-806eaa4f6daf}
+  - {name: 🇷🇺 俄罗斯免流001, server: ru1.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: baiducdncmn2.inter.iqiyi.com, network: ws, ws-opts: {path: /, headers: {Host: baiducdncmn2.inter.iqiyi.com}}}
+  - {name: 🇷🇺 俄罗斯免流002, server: ru2.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: baiducdncmn2.inter.iqiyi.com, network: ws, ws-opts: {path: /, headers: {Host: baiducdncmn2.inter.iqiyi.com}}}
   - {name: 🇮🇳 印度高速001, server: ind1.elknode.top, port: 8443, type: trojan, password: c3470b64-be98-34cc-a1f7-93182ddf4df7, sni: ind1.elknode.top, skip-cert-verify: false}
-  - {name: 🇹🇼 台湾高速001, server: tw1.elknode.top, port: 10540, type: trojan, password: c3470b64-be98-34cc-a1f7-93182ddf4df7, sni: tw1.elknode.top, skip-cert-verify: false}
-  - {name: 🇹🇷 土耳其免流001, server: tur1.elknode.top, port: 10002, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qatjpji, headers: {Host: data.video.qiyi.com}}}
+  - {name: 🇨🇳 台湾高速001, server: tw1.elknode.top, port: 10540, type: trojan, password: c3470b64-be98-34cc-a1f7-93182ddf4df7, sni: tw1.elknode.top, skip-cert-verify: false}
+  - {name: 🇹🇷 土耳其免流001, server: tur1.elknode.top, port: 10002, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: data.video.qiyi.com, network: ws, ws-opts: {path: /qatjpji, headers: {Host: data.video.qiyi.com}}}
   - {name: 🇩🇪 德国高速001, server: de1.elknode.top, port: 443, type: trojan, password: c3470b64-be98-34cc-a1f7-93182ddf4df7, sni: de1.elknode.top, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡免流001, server: sg1.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qatjpji, headers: {Host: data.video.qiyi.com}}}
-  - {name: 🇸🇬 新加坡免流002, server: sg2.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qatjpji, headers: {Host: data.video.qiyi.com}}}
-  - {name: 🇸🇬 新加坡免流003, server: sg5.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qatjpji, headers: {Host: data.video.qiyi.com}}}
-  - {name: "🇸🇬 新加坡免流[公益]", server: sg3.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qatjpji, headers: {Host: data.video.qiyi.com}}}
+  - {name: 🇸🇬 新加坡免流001, server: sg1.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: data.video.qiyi.com, network: ws, ws-opts: {path: /qatjpji, headers: {Host: data.video.qiyi.com}}}
+  - {name: 🇸🇬 新加坡免流002, server: sg2.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: data.video.qiyi.com, network: ws, ws-opts: {path: /qatjpji, headers: {Host: data.video.qiyi.com}}}
+  - {name: 🇸🇬 新加坡免流003, server: sg5.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: data.video.qiyi.com, network: ws, ws-opts: {path: /qatjpji, headers: {Host: data.video.qiyi.com}}}
+  - {name: "🇸🇬 新加坡免流[公益]", server: sg3.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: data.video.qiyi.com, network: ws, ws-opts: {path: /qatjpji, headers: {Host: data.video.qiyi.com}}}
   - {name: 🇸🇬 新加坡高速001, server: sg1.elknode.top, port: 10000, type: trojan, password: c3470b64-be98-34cc-a1f7-93182ddf4df7, sni: sg1.elknode.top, skip-cert-verify: false}
   - {name: 🇸🇬 新加坡高速002, server: sg2.elknode.top, port: 443, type: trojan, password: c3470b64-be98-34cc-a1f7-93182ddf4df7, sni: sg2.elknode.top, skip-cert-verify: false}
   - {name: 🇸🇬 新加坡高速003, server: sg4.elknode.top, port: 443, type: trojan, password: c3470b64-be98-34cc-a1f7-93182ddf4df7, sni: sg4.elknode.top, skip-cert-verify: false}
-  - {name: "🇸🇬 新加坡高速[公益]", server: sg3.elknode.top, port: 10000, type: trojan, password: c3470b64-be98-34cc-a1f7-93182ddf4df7, sni: sg3.elknode.top, skip-cert-verify: false}
-  - {name: 🇯🇵 日本免流001, server: jp1.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qatjpji, headers: {Host: data.video.qiyi.com}}}
-  - {name: 🇯🇵 日本免流002, server: jp2.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qatjpji, headers: {Host: data.video.qiyi.com}}}
-  - {name: 🇯🇵 日本免流003, server: jp3.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qatjpji, headers: {Host: data.video.qiyi.com}}}
-  - {name: 🇯🇵 日本免流004, server: jp4.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qatjpji, headers: {Host: data.video.qiyi.com}}}
-  - {name: 🇯🇵 日本免流005, server: jp5.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qatjpji, headers: {Host: data.video.qiyi.com}}}
+  - {name: "🇸🇬 新加坡高速[公益]", server: sg3.elknode.top, port: 443, type: trojan, password: c3470b64-be98-34cc-a1f7-93182ddf4df7, sni: sg3.elknode.top, skip-cert-verify: false}
+  - {name: 🇯🇵 日本免流001, server: jp1.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: data.video.qiyi.com, network: ws, ws-opts: {path: /qatjpji, headers: {Host: data.video.qiyi.com}}}
+  - {name: 🇯🇵 日本免流002, server: jp2.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: data.video.qiyi.com, network: ws, ws-opts: {path: /qatjpji, headers: {Host: data.video.qiyi.com}}}
+  - {name: 🇯🇵 日本免流003, server: jp3.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: data.video.qiyi.com, network: ws, ws-opts: {path: /qatjpji, headers: {Host: data.video.qiyi.com}}}
+  - {name: 🇯🇵 日本免流004, server: jp4.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: data.video.qiyi.com, network: ws, ws-opts: {path: /qatjpji, headers: {Host: data.video.qiyi.com}}}
+  - {name: 🇯🇵 日本免流005, server: jp5.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: data.video.qiyi.com, network: ws, ws-opts: {path: /qatjpji, headers: {Host: data.video.qiyi.com}}}
   - {name: 🇯🇵 日本高速001, server: jp3.elknode.top, port: 443, type: trojan, password: c3470b64-be98-34cc-a1f7-93182ddf4df7, sni: jp3.elknode.top, skip-cert-verify: false}
   - {name: 🇯🇵 日本高速002, server: jp4.elknode.top, port: 443, type: trojan, password: c3470b64-be98-34cc-a1f7-93182ddf4df7, sni: jp4.elknode.top, skip-cert-verify: false}
   - {name: 🇦🇺 澳大利亚高速001, server: aus1.elknode.top, port: 443, type: trojan, password: c3470b64-be98-34cc-a1f7-93182ddf4df7, sni: aus1.elknode.top, skip-cert-verify: false}
-  - {name: 🇺🇸 美国免流001, server: us2.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qatjpji, headers: {Host: data.video.qiyi.com}}}
-  - {name: 🇺🇸 美国免流002, server: us3.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qatjpji, headers: {Host: data.video.qiyi.com}}}
-  - {name: 🇺🇸 美国免流003, server: us4.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qatjpji, headers: {Host: data.video.qiyi.com}}}
-  - {name: 🇺🇸 美国免流004, server: us5.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qatjpji, headers: {Host: data.video.qiyi.com}}}
-  - {name: "🇺🇸 美国免流[公益]", server: us1.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qatjpji, headers: {Host: data.video.qiyi.com}}}
+  - {name: 🇺🇸 美国免流001, server: us2.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: data.video.qiyi.com, network: ws, ws-opts: {path: /qatjpji, headers: {Host: data.video.qiyi.com}}}
+  - {name: 🇺🇸 美国免流002, server: us3.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: data.video.qiyi.com, network: ws, ws-opts: {path: /qatjpji, headers: {Host: data.video.qiyi.com}}}
+  - {name: 🇺🇸 美国免流003, server: us4.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: data.video.qiyi.com, network: ws, ws-opts: {path: /qatjpji, headers: {Host: data.video.qiyi.com}}}
+  - {name: 🇺🇸 美国免流004, server: us5.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: data.video.qiyi.com, network: ws, ws-opts: {path: /qatjpji, headers: {Host: data.video.qiyi.com}}}
+  - {name: "🇺🇸 美国免流[公益]", server: us1.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: data.video.qiyi.com, network: ws, ws-opts: {path: /qatjpji, headers: {Host: data.video.qiyi.com}}}
   - {name: 🇺🇸 美国高速001, server: us2.elknode.top, port: 443, type: trojan, password: c3470b64-be98-34cc-a1f7-93182ddf4df7, sni: us2.elknode.top, skip-cert-verify: false}
   - {name: 🇺🇸 美国高速002, server: us3.elknode.top, port: 443, type: trojan, password: c3470b64-be98-34cc-a1f7-93182ddf4df7, sni: us3.elknode.top, skip-cert-verify: false}
   - {name: 🇺🇸 美国高速003, server: us4.elknode.top, port: 443, type: trojan, password: c3470b64-be98-34cc-a1f7-93182ddf4df7, sni: us4.elknode.top, skip-cert-verify: false}
   - {name: 🇺🇸 美国高速004, server: us5.elknode.top, port: 443, type: trojan, password: c3470b64-be98-34cc-a1f7-93182ddf4df7, sni: us5.elknode.top, skip-cert-verify: false}
   - {name: "🇺🇸 美国高速[公益]", server: us1.elknode.top, port: 443, type: trojan, password: c3470b64-be98-34cc-a1f7-93182ddf4df7, sni: us1.elknode.top, skip-cert-verify: false}
   - {name: 🇫🇮 芬兰高速001, server: fi1.elknode.top, port: 30080, type: trojan, password: c3470b64-be98-34cc-a1f7-93182ddf4df7, sni: fi1.elknode.top, skip-cert-verify: false}
-  - {name: 🇬🇧 英国免流001, server: gb1.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qatjpji, headers: {Host: data.video.qiyi.com}}}
+  - {name: 🇬🇧 英国免流001, server: gb1.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: data.video.qiyi.com, network: ws, ws-opts: {path: /qatjpji, headers: {Host: data.video.qiyi.com}}}
   - {name: 🇬🇧 英国高速001, server: gb1.elknode.top, port: 443, type: trojan, password: c3470b64-be98-34cc-a1f7-93182ddf4df7, sni: gb1.elknode.top, skip-cert-verify: false}
-  - {name: 🇰🇷 韩国免流001, server: kr1.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qatjpji, headers: {Host: data.video.qiyi.com}}}
-  - {name: 🇰🇷 韩国免流002, server: kr2.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qatjpji, headers: {Host: data.video.qiyi.com}}}
-  - {name: 🇰🇷 韩国免流003, server: kr3.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qatjpji, headers: {Host: data.video.qiyi.com}}}
-  - {name: 🇰🇷 韩国免流004, server: kr4.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qatjpji, headers: {Host: data.video.qiyi.com}}}
-  - {name: 🇰🇷 韩国免流005, server: kr5.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qatjpji, headers: {Host: data.video.qiyi.com}}}
-  - {name: 🇰🇷 韩国免流006, server: kr6.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qatjpji, headers: {Host: data.video.qiyi.com}}}
+  - {name: 🇰🇷 韩国免流001, server: kr1.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: data.video.qiyi.com, network: ws, ws-opts: {path: /qatjpji, headers: {Host: data.video.qiyi.com}}}
+  - {name: 🇰🇷 韩国免流002, server: kr2.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: data.video.qiyi.com, network: ws, ws-opts: {path: /qatjpji, headers: {Host: data.video.qiyi.com}}}
+  - {name: 🇰🇷 韩国免流003, server: kr3.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: data.video.qiyi.com, network: ws, ws-opts: {path: /qatjpji, headers: {Host: data.video.qiyi.com}}}
+  - {name: 🇰🇷 韩国免流004, server: kr4.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: data.video.qiyi.com, network: ws, ws-opts: {path: /qatjpji, headers: {Host: data.video.qiyi.com}}}
+  - {name: 🇰🇷 韩国免流005, server: kr5.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: data.video.qiyi.com, network: ws, ws-opts: {path: /qatjpji, headers: {Host: data.video.qiyi.com}}}
+  - {name: 🇰🇷 韩国免流006, server: kr6.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: data.video.qiyi.com, network: ws, ws-opts: {path: /qatjpji, headers: {Host: data.video.qiyi.com}}}
   - {name: 🇰🇷 韩国高速001, server: kr1.elknode.top, port: 443, type: trojan, password: c3470b64-be98-34cc-a1f7-93182ddf4df7, sni: kr1.elknode.top, skip-cert-verify: false}
-  - {name: 🇭🇰 香港免流001, server: hk1.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: baiducdncmn2.inter.iqiyi.com}}}
-  - {name: 🇭🇰 香港免流002, server: hk2.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: baiducdncmn2.inter.iqiyi.com}}}
-  - {name: 🇭🇰 香港免流003, server: hk3.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: baiducdncmn2.inter.iqiyi.com}}}
-  - {name: 🇭🇰 香港免流004, server: hk4.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: baiducdncmn2.inter.iqiyi.com}}}
-  - {name: "🇭🇰 香港免流005[广东停机]", server: hk5.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /TS/recharge/tzUrl.html, headers: {Host: gd.189.cn}}}
-  - {name: 🇭🇰 香港免流006, server: hk8.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: baiducdncmn2.inter.iqiyi.com}}}
-  - {name: 🇭🇰 香港免流007, server: hk9.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: baiducdncmn2.inter.iqiyi.com}}}
-  - {name: 🇭🇰 香港免流008, server: hk10.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: baiducdncmn2.inter.iqiyi.com}}}
+  - {name: 🇭🇰 香港免流001, server: hk1.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: baiducdncmn2.inter.iqiyi.com, network: ws, ws-opts: {path: /, headers: {Host: baiducdncmn2.inter.iqiyi.com}}}
+  - {name: 🇭🇰 香港免流002, server: hk2.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: baiducdncmn2.inter.iqiyi.com, network: ws, ws-opts: {path: /, headers: {Host: baiducdncmn2.inter.iqiyi.com}}}
+  - {name: 🇭🇰 香港免流003, server: hk3.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: baiducdncmn2.inter.iqiyi.com, network: ws, ws-opts: {path: /, headers: {Host: baiducdncmn2.inter.iqiyi.com}}}
+  - {name: 🇭🇰 香港免流004, server: hk4.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: baiducdncmn2.inter.iqiyi.com, network: ws, ws-opts: {path: /, headers: {Host: baiducdncmn2.inter.iqiyi.com}}}
+  - {name: "🇭🇰 香港免流005[广东停机]", server: hk5.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: gd.189.cn, network: ws, ws-opts: {path: /TS/recharge/tzUrl.html, headers: {Host: gd.189.cn}}}
+  - {name: 🇭🇰 香港免流006, server: hk8.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: baiducdncmn2.inter.iqiyi.com, network: ws, ws-opts: {path: /, headers: {Host: baiducdncmn2.inter.iqiyi.com}}}
+  - {name: 🇭🇰 香港免流007, server: hk9.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: baiducdncmn2.inter.iqiyi.com, network: ws, ws-opts: {path: /, headers: {Host: baiducdncmn2.inter.iqiyi.com}}}
+  - {name: 🇭🇰 香港免流008, server: hk10.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: baiducdncmn2.inter.iqiyi.com, network: ws, ws-opts: {path: /, headers: {Host: baiducdncmn2.inter.iqiyi.com}}}
   - {name: 🇭🇰 香港高速001, server: hk6.elknode.top, port: 10033, type: trojan, password: c3470b64-be98-34cc-a1f7-93182ddf4df7, sni: hk6.elknode.top, skip-cert-verify: false}
-  - {name: 🇭🇰 香港高速002, server: hk7.elknode.top, port: 10053, type: trojan, password: c3470b64-be98-34cc-a1f7-93182ddf4df7, sni: hk7.elknode.top, skip-cert-verify: false}
-  - {name: 🇭🇰 自建香港, server: srceouxmi, port: 80, type: vmess, uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5, alterId: 16, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/opentunnel?user=opentunnel.net-srceouxmi", headers: {Host: hkv-1.openv2ray.com}}}
+  - {name: "香港高速001�ɽ���輽=�\x19\x15\x18�@e�\x01���Ĺѥ�ѽ�����͉��������͕��ɥ���ѱ̙��T�э\x19������Q�T����\x14�\x04ؔ��\x14ؕ\b�\x05\x18�\x14ܕ\x04ܕ\t\b�\x14Ԕ�\x04�\x04�4(", server: hk7.elknode.top, port: 10053, type: trojan, password: c3470b64-be98-34cc-a1f7-93182ddf4df7, sni: hk7.elknode.top, skip-cert-verify: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -181,15 +170,15 @@ proxy-groups:
       - 🇭🇰 公网 | 香港 | 流媒体
       - 🇯🇵 公网 | 日本 | 流媒体
       - 🇺🇸 公网 | 美国 | 流媒体
-      - 🇹🇼 公网 | 台湾 | 流媒体
+      - 🇨🇳 公网 | 台湾 | 流媒体
       - 🇯🇵 备用 | 日本 | 流媒体
       - 🇭🇰 备用 | 香港 | 流媒体
       - 🇺🇸 备用 | 美国 | 流媒体
-      - 🇹🇼 备用 | 台湾 | 流媒体
+      - 🇨🇳 备用 | 台湾 | 流媒体
       - 🇷🇺 俄罗斯免流001
       - 🇷🇺 俄罗斯免流002
       - 🇮🇳 印度高速001
-      - 🇹🇼 台湾高速001
+      - 🇨🇳 台湾高速001
       - 🇹🇷 土耳其免流001
       - 🇩🇪 德国高速001
       - 🇸🇬 新加坡免流001
@@ -237,8 +226,6 @@ proxy-groups:
       - 🇭🇰 香港免流007
       - 🇭🇰 香港免流008
       - 🇭🇰 香港高速001
-      - 🇭🇰 香港高速002
-      - 🇭🇰 自建香港
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -296,15 +283,15 @@ proxy-groups:
       - 🇭🇰 公网 | 香港 | 流媒体
       - 🇯🇵 公网 | 日本 | 流媒体
       - 🇺🇸 公网 | 美国 | 流媒体
-      - 🇹🇼 公网 | 台湾 | 流媒体
+      - 🇨🇳 公网 | 台湾 | 流媒体
       - 🇯🇵 备用 | 日本 | 流媒体
       - 🇭🇰 备用 | 香港 | 流媒体
       - 🇺🇸 备用 | 美国 | 流媒体
-      - 🇹🇼 备用 | 台湾 | 流媒体
+      - 🇨🇳 备用 | 台湾 | 流媒体
       - 🇷🇺 俄罗斯免流001
       - 🇷🇺 俄罗斯免流002
       - 🇮🇳 印度高速001
-      - 🇹🇼 台湾高速001
+      - 🇨🇳 台湾高速001
       - 🇹🇷 土耳其免流001
       - 🇩🇪 德国高速001
       - 🇸🇬 新加坡免流001
@@ -352,8 +339,6 @@ proxy-groups:
       - 🇭🇰 香港免流007
       - 🇭🇰 香港免流008
       - 🇭🇰 香港高速001
-      - 🇭🇰 香港高速002
-      - 🇭🇰 自建香港
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -422,15 +407,15 @@ proxy-groups:
       - 🇭🇰 公网 | 香港 | 流媒体
       - 🇯🇵 公网 | 日本 | 流媒体
       - 🇺🇸 公网 | 美国 | 流媒体
-      - 🇹🇼 公网 | 台湾 | 流媒体
+      - 🇨🇳 公网 | 台湾 | 流媒体
       - 🇯🇵 备用 | 日本 | 流媒体
       - 🇭🇰 备用 | 香港 | 流媒体
       - 🇺🇸 备用 | 美国 | 流媒体
-      - 🇹🇼 备用 | 台湾 | 流媒体
+      - 🇨🇳 备用 | 台湾 | 流媒体
       - 🇷🇺 俄罗斯免流001
       - 🇷🇺 俄罗斯免流002
       - 🇮🇳 印度高速001
-      - 🇹🇼 台湾高速001
+      - 🇨🇳 台湾高速001
       - 🇹🇷 土耳其免流001
       - 🇩🇪 德国高速001
       - 🇸🇬 新加坡免流001
@@ -478,8 +463,6 @@ proxy-groups:
       - 🇭🇰 香港免流007
       - 🇭🇰 香港免流008
       - 🇭🇰 香港高速001
-      - 🇭🇰 香港高速002
-      - 🇭🇰 自建香港
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

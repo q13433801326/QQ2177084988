@@ -1,0 +1,1 @@
+  - {name: 🇭🇰 香港 01 | ws, server: 236ba16f-7989-71de-e510-1cad33923355.cnnic.rip, port: 80, type: vmess, uuid: 3ed486c9-f581-477f-85b8-f48c0095064a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}

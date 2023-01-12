@@ -1,23 +1,15 @@
 proxies:
   - {name: QQ:2177084988, server: "null", port: 0, type: socks5, skip-cert-verify: false}
-  - {name: "🇸🇬 [v1] 新加坡・01", server: yd-05.paofunlink.com, port: 1190, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 37f7e180722.microsoft.com}}
-  - {name: "🇸🇬 [v1] 新加坡・02", server: yd-05.paofunlink.com, port: 1191, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 37f7e180722.microsoft.com}}
-  - {name: "🇸🇬 [v1] 新加坡・03", server: yd-02.paofunlink.com, port: 1192, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 37f7e180722.microsoft.com}}
-  - {name: "🇸🇬 [v1] 新加坡・04", server: yd-02.paofunlink.com, port: 1193, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 37f7e180722.microsoft.com}}
-  - {name: "🇸🇬 [v1] 新加坡・05", server: yd-02.paofunlink.com, port: 1194, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 37f7e180722.microsoft.com}}
-  - {name: "🇯🇵 [v1] 日本・01", server: yd-05.paofunlink.com, port: 1150, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 37f7e180722.microsoft.com}}
-  - {name: "🇯🇵 [v1] 日本・02", server: yd-05.paofunlink.com, port: 1151, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 37f7e180722.microsoft.com}}
-  - {name: "🇯🇵 [v1] 日本・03", server: yd-02.paofunlink.com, port: 1152, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 37f7e180722.microsoft.com}}
-  - {name: "🇯🇵 [v1] 日本・04", server: yd-02.paofunlink.com, port: 1153, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 37f7e180722.microsoft.com}}
-  - {name: "🇸🇬 [v1] 新加坡・01", server: yd-05.paofunlink.com, port: 1190, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 37f7e180722.microsoft.com}}
-  - {name: "🇸🇬 [v1] 新加坡・02", server: yd-05.paofunlink.com, port: 1191, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 37f7e180722.microsoft.com}}
-  - {name: "🇸🇬 [v1] 新加坡・03", server: yd-02.paofunlink.com, port: 1192, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 37f7e180722.microsoft.com}}
-  - {name: "🇸🇬 [v1] 新加坡・04", server: yd-02.paofunlink.com, port: 1193, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 37f7e180722.microsoft.com}}
-  - {name: "🇸🇬 [v1] 新加坡・05", server: yd-02.paofunlink.com, port: 1194, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 37f7e180722.microsoft.com}}
-  - {name: "🇯🇵 [v1] 日本・01", server: yd-05.paofunlink.com, port: 1150, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 37f7e180722.microsoft.com}}
-  - {name: "🇯🇵 [v1] 日本・02", server: yd-05.paofunlink.com, port: 1151, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 37f7e180722.microsoft.com}}
-  - {name: "🇯🇵 [v1] 日本・03", server: yd-02.paofunlink.com, port: 1152, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 37f7e180722.microsoft.com}}
-  - {name: "🇯🇵 [v1] 日本・04", server: yd-02.paofunlink.com, port: 1153, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 37f7e180722.microsoft.com}}
+  - {name: "[SS] 🇭🇰 [v1] 香港・01", server: yd-01.paofunlink.com, port: 5980, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 37f7e180722.microsoft.com}, udp: true}
+  - {name: "[SS] 🇭🇰 [v1] 香港・02", server: yd-01.paofunlink.com, port: 5981, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 37f7e180722.microsoft.com}, udp: true}
+  - {name: "[SS] 🇭🇰 [v1] 香港・03", server: yd-01.paofunlink.com, port: 5982, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 37f7e180722.microsoft.com}, udp: true}
+  - {name: "[SS] 🇭🇰 [v1] 香港・04", server: yd-06.paofunlink.com, port: 5983, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 37f7e180722.microsoft.com}, udp: true}
+  - {name: "[SS] 🇭🇰 [v1] 香港・05", server: yd-06.paofunlink.com, port: 5984, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 37f7e180722.microsoft.com}, udp: true}
+  - {name: "[SS] 🇭🇰 [v1] 香港・06", server: yd-06.paofunlink.com, port: 5985, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 37f7e180722.microsoft.com}, udp: true}
+  - {name: "[SS] 🇭🇰 [v1] 香港・07", server: yd-07.paofunlink.com, port: 5986, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 37f7e180722.microsoft.com}, udp: true}
+  - {name: "[SS] 🇭🇰 [v1] 香港・08", server: yd-07.paofunlink.com, port: 5987, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 37f7e180722.microsoft.com}, udp: true}
+  - {name: "[SS] 🇭🇰 [v1] 香港・09", server: yd-07.paofunlink.com, port: 5988, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 37f7e180722.microsoft.com}, udp: true}
+  - {name: "[SS] 🇭🇰 [v1] 香港・10", server: yd-07.paofunlink.com, port: 5989, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 37f7e180722.microsoft.com}, udp: true}
   - {name: 🇺🇸 美国02cf, server: cf.fastal.one, port: 8443, type: vmess, uuid: 3bba7cb9-20db-4604-dfdc-71dde392c50c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: yjs.fastal.one, network: ws, ws-opts: {path: /https://t.me/yunjisuan888/, headers: {Host: yjs.fastal.one}}}
   - {name: 🇺🇸 美国01cf, server: cf.fastal.one, port: 2096, type: vmess, uuid: 39afa088-ad91-4beb-865f-a22468f3fba1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: eww.fastal.one, network: ws, ws-opts: {path: /ray/, headers: {Host: eww.fastal.one}}}
   - {name: 🇺🇸 果粒橙CF美国, server: guolicheng.cfd, port: 2052, type: vmess, uuid: c22b6896-0009-42bf-c787-cc4695261bb9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/video?ed=2048", headers: {Host: us.hoox.cf}}}
@@ -42,7 +34,6 @@ proxies:
   - {name: 🇹🇼 TW, server: zz.luosi.me, port: 10003, type: ss, cipher: chacha20-ietf-poly1305, password: 7604e3f1-42fb-4396-b5a4-9bfed0511918}
   - {name: 🇸🇬 新加坡, server: zebra2.2022.2025.mlinuu.top, port: 4503, type: vmess, uuid: 261d6e98-f009-331f-8350-eba6f59b2bf0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 🇯🇵 日本, server: smart.2022.2024.mlinuu.top, port: 11001, type: vmess, uuid: 261d6e98-f009-331f-8350-eba6f59b2bf0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 香港, server: zebra2.2022.2025.mlinuu.top, port: 902, type: ss, cipher: aes-256-gcm, password: Gqre0R}
   - {name: 🇸🇬 1Gbps︱新加坡︱1, server: sg1.m.loving123.cloud, port: 80, type: vmess, uuid: 3066477f-e676-4887-979b-dd82155037df, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sg1.m.loving123.cloud}}}
   - {name: 🇸🇬 1Gbps︱新加坡︱2, server: sg2.m.loving123.cloud, port: 80, type: vmess, uuid: 3066477f-e676-4887-979b-dd82155037df, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sg2.m.loving123.cloud}}}
   - {name: 🇸🇬 1Gbps︱新加坡︱3, server: sg3.m.loving123.cloud, port: 80, type: vmess, uuid: 3066477f-e676-4887-979b-dd82155037df, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: sg3.m.loving123.cloud, network: ws, ws-opts: {path: /, headers: {Host: sg3.m.loving123.cloud}}}

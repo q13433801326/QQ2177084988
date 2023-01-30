@@ -1,4 +1,5 @@
 proxies:
+  - {name: 🇭🇰 香港, server: 183.60.211.15, port: 13003, type: trojan, password: bced93b0-2915-3f0d-b870-afb9066b6162, skip-cert-verify: false}
   - {name: QQ:2177084988, server: "null", port: 0, type: socks5, skip-cert-verify: false}
   - {name: "🇸🇬 -SG&Tr", server: kt.p.mkitty.top, port: 443, type: trojan, password: 1fd1f2fb-4faa-4bde-8ecd-85831d38832b, sni: kt.p.mkitty.top, skip-cert-verify: false}
   - {name: "🇰🇷 -KR&4", server: op.en.usdeth.top, port: 443, type: trojan, password: 1fd1f2fb-4faa-4bde-8ecd-85831d38832b, sni: op.en.usdeth.top, skip-cert-verify: false}

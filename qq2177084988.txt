@@ -1,6 +1,5 @@
 proxies:
-  - {name: 🇭🇰 香港, server: 183.60.211.15, port: 13003, type: trojan, password: bced93b0-2915-3f0d-b870-afb9066b6162, skip-cert-verify: false}
-  - {name: QQ:2177084988, server: "2177084988.qq", port: 1234, type: socks5, skip-cert-verify: false}
+  - {name: QQ:2177084988, server: "null", port: 0, type: socks5, skip-cert-verify: false}
   - {name: "🇸🇬 -SG&Tr", server: kt.p.mkitty.top, port: 443, type: trojan, password: 1fd1f2fb-4faa-4bde-8ecd-85831d38832b, sni: kt.p.mkitty.top, skip-cert-verify: false}
   - {name: "🇰🇷 -KR&4", server: op.en.usdeth.top, port: 443, type: trojan, password: 1fd1f2fb-4faa-4bde-8ecd-85831d38832b, sni: op.en.usdeth.top, skip-cert-verify: false}
   - {name: "🇯🇵 -JP&T3", server: js.ps.usdeth.t, port: 12238, type: trojan, password: 1fd1f2fb-4faa-4bde-8ecd-85831d38832b, sni: js.ps.usdeth.t, skip-cert-verify: false}
@@ -55,3 +54,5 @@ proxies:
   - {name: 🇩🇪 德国, server: 84.252.121.218, port: 443, type: trojan, password: 8842fadf-5e16-443f-97e3-50addf4ff2ef, sni: vzwzasc.cn, skip-cert-verify: false}
   - {name: 🇺🇸 美国洛杉矶 | 允许长期跑满带宽-0.1x速, server: 104.149.155.13, port: 443, type: trojan, password: 8842fadf-5e16-443f-97e3-50addf4ff2ef, sni: vzwzasc.cn, skip-cert-verify: false}
   - {name: 🇺🇸 美国圣何塞 | 允许长期跑满带宽-0.1x速, server: 74.217.179.35, port: 443, type: trojan, password: 8842fadf-5e16-443f-97e3-50addf4ff2ef, sni: vzwzasc.cn, skip-cert-verify: false}
+  - {name: Alien, server: 124.226.213.250, port: 21805, type: vmess, uuid: 0dd19d20-ec86-3680-b256-87237bafa89e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: Alien 2, server: zebra2.2022.2025.mlinuu.top, port: 4503, type: vmess, uuid: a29229f6-2fc5-3a1d-889b-cf6a2bdebf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}

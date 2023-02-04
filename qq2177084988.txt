@@ -6,7 +6,6 @@ proxies:
   - { name: 新加坡, type: vmess, server: free-sg.tencent.cfd, port: 61616, uuid: d1860587-aa33-4b76-85cd-c191edecb338, alterId: 0, cipher: auto, udp: true, network: ws }
   - { name: 日本d, type: vmess, server: free-jp.tencent.cfd, port: 61616, uuid: d1860587-aa33-4b76-85cd-c191edecb338, alterId: 0, cipher: auto, udp: true, network: ws }
   - { name: 美国-d, type: vmess, server: free-us.tencent.cfd, port: 61616, uuid: d1860587-aa33-4b76-85cd-c191edecb338, alterId: 0, cipher: auto, udp: true, network: ws }
-
   - {name: "🇸🇬 -SG&Tr", server: kt.p.mkitty.top, port: 443, type: trojan, password: 1fd1f2fb-4faa-4bde-8ecd-85831d38832b, sni: kt.p.mkitty.top, skip-cert-verify: false}
   - {name: "🇰🇷 -KR&4", server: op.en.usdeth.top, port: 443, type: trojan, password: 1fd1f2fb-4faa-4bde-8ecd-85831d38832b, sni: op.en.usdeth.top, skip-cert-verify: false}
   - {name: "🇯🇵 -JP&T3", server: js.ps.usdeth.t, port: 12238, type: trojan, password: 1fd1f2fb-4faa-4bde-8ecd-85831d38832b, sni: js.ps.usdeth.t, skip-cert-verify: false}

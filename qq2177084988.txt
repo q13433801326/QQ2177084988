@@ -1,5 +1,6 @@
 proxies:
   - {name: QQ:2177084988, server: "null", port: 0, type: socks5, skip-cert-verify: false}
+  - {name: 🇭🇰 Hong Kong 05, server: hkgwabud.76898102.xyz, port: 18443, type: vmess, uuid: 46c71eb1-b4a1-3a93-a8c5-4851894ff96a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: hkgwabud.76898102.xyz, network: ws, ws-opts: {path: /dinhkawdb, 
   - {"name":"🇸🇬HW-SG 01\r","type":"ss","server":"13.215.177.216","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
   - {"name":"🇸🇬HW-SG 02\r","type":"ss","server":"54.179.96.111","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
   - {"name":"🇸🇬HW-SG 03\r","type":"ss","server":"13.213.4.158","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}   

@@ -1,5 +1,8 @@
 proxies:
   - {name: QQ:2177084988, server: "null", port: 0, type: socks5, skip-cert-verify: false}
+  - {"name":"🇸🇬HW-SG 01\r","type":"ss","server":"13.215.177.216","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇸🇬HW-SG 02\r","type":"ss","server":"54.179.96.111","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇸🇬HW-SG 03\r","type":"ss","server":"13.213.4.158","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
   - {name: "🇸🇬 -SG&Tr", server: kt.p.mkitty.top, port: 443, type: trojan, password: 1fd1f2fb-4faa-4bde-8ecd-85831d38832b, sni: kt.p.mkitty.top, skip-cert-verify: false}
   - {name: "🇰🇷 -KR&4", server: op.en.usdeth.top, port: 443, type: trojan, password: 1fd1f2fb-4faa-4bde-8ecd-85831d38832b, sni: op.en.usdeth.top, skip-cert-verify: false}
   - {name: "🇯🇵 -JP&T3", server: js.ps.usdeth.t, port: 12238, type: trojan, password: 1fd1f2fb-4faa-4bde-8ecd-85831d38832b, sni: js.ps.usdeth.t, skip-cert-verify: false}

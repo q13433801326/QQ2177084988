@@ -18,7 +18,6 @@ proxies:
   - {"name":"加拿大 01 | ws","type":"vmess","server":"148e9178-8681-05de-7498-518779dceb98.cnnic.rip","port":80,"cipher":"auto","uuid":"3ed486c9-f581-477f-85b8-f48c0095064a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ca"}}
   - {"name":"德国 01 | ws","type":"vmess","server":"a3894e87-ba58-3101-112c-01938c0af70f.cnnic.rip","port":80,"cipher":"auto","uuid":"3ed486c9-f581-477f-85b8-f48c0095064a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/de"}}
   - {"name":"土耳其 01 | ws","type":"vmess","server":"8d6acf2f-42dd-7cbf-3200-9a2db3f29f2c.cnnic.rip","port":80,"cipher":"auto","uuid":"3ed486c9-f581-477f-85b8-f48c0095064a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/tr"}}
-
   - {"name":"🇸🇬HW-SG 01\r","type":"ss","server":"13.215.177.216","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
   - { name: 新加坡, type: vmess, server: free-sg.tencent.cfd, port: 61616, uuid: d1860587-aa33-4b76-85cd-c191edecb338, alterId: 0, cipher: auto, udp: true, network: ws }
   - { name: 日本d, type: vmess, server: free-jp.tencent.cfd, port: 61616, uuid: d1860587-aa33-4b76-85cd-c191edecb338, alterId: 0, cipher: auto, udp: true, network: ws }

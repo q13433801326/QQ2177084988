@@ -1,8 +1,6 @@
 proxies:
   - {name: QQ:2177084988, server: "null", port: 0, type: socks5, skip-cert-verify: false}
   - {"name":"🇸🇬HW-SG 01\r","type":"ss","server":"13.215.177.216","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"🇸🇬HW-SG 02\r","type":"ss","server":"54.179.96.111","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"🇸🇬HW-SG 03\r","type":"ss","server":"13.213.4.158","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}   
   - { name: 新加坡, type: vmess, server: free-sg.tencent.cfd, port: 61616, uuid: d1860587-aa33-4b76-85cd-c191edecb338, alterId: 0, cipher: auto, udp: true, network: ws }
   - { name: 日本d, type: vmess, server: free-jp.tencent.cfd, port: 61616, uuid: d1860587-aa33-4b76-85cd-c191edecb338, alterId: 0, cipher: auto, udp: true, network: ws }
   - { name: 美国-d, type: vmess, server: free-us.tencent.cfd, port: 61616, uuid: d1860587-aa33-4b76-85cd-c191edecb338, alterId: 0, cipher: auto, udp: true, network: ws }

@@ -22,12 +22,6 @@ proxies:
   - { name: 新加坡, type: vmess, server: free-sg.tencent.cfd, port: 61616, uuid: d1860587-aa33-4b76-85cd-c191edecb338, alterId: 0, cipher: auto, udp: true, network: ws }
   - { name: 日本d, type: vmess, server: free-jp.tencent.cfd, port: 61616, uuid: d1860587-aa33-4b76-85cd-c191edecb338, alterId: 0, cipher: auto, udp: true, network: ws }
   - { name: 美国-d, type: vmess, server: free-us.tencent.cfd, port: 61616, uuid: d1860587-aa33-4b76-85cd-c191edecb338, alterId: 0, cipher: auto, udp: true, network: ws }
-  - {name: "🇸🇬 -SG&Tr", server: kt.p.mkitty.top, port: 443, type: trojan, password: 1fd1f2fb-4faa-4bde-8ecd-85831d38832b, sni: kt.p.mkitty.top, skip-cert-verify: false}
-  - {name: "🇰🇷 -KR&4", server: op.en.usdeth.top, port: 443, type: trojan, password: 1fd1f2fb-4faa-4bde-8ecd-85831d38832b, sni: op.en.usdeth.top, skip-cert-verify: false}
-  - {name: "🇯🇵 -JP&T3", server: js.ps.usdeth.t, port: 12238, type: trojan, password: 1fd1f2fb-4faa-4bde-8ecd-85831d38832b, sni: js.ps.usdeth.t, skip-cert-verify: false}
-  - {name: "🇰🇷 -KR&G", server: zi.you.usdtvfk.top, port: 443, type: trojan, password: 1fd1f2fb-4faa-4bde-8ecd-85831d38832b, sni: zi.you.usdtvfk.top, skip-cert-verify: false}
-  - {name: 🇭🇰 -HK, server: dy.d.mkitty.top, port: 443, type: trojan, password: 1fd1f2fb-4faa-4bde-8ecd-85831d38832b, sni: dy.d.mkitty.top, skip-cert-verify: false}
-  - {name: "🇰🇷 -KR&X", server: jk.jkk.mkitty.top, port: 443, type: trojan, password: 1fd1f2fb-4faa-4bde-8ecd-85831d38832b, sni: jk.jkk.mkitty.top, skip-cert-verify: false}
   - {name: 🇭🇰 HK, server: zz.luosi.me, port: 10000, type: ss, cipher: chacha20-ietf-poly1305, password: 7604e3f1-42fb-4396-b5a4-9bfed0511918}
   - {name: 🇯🇵 JP, server: zz.luosi.me, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 7604e3f1-42fb-4396-b5a4-9bfed0511918}
   - {name: 🇺🇸 US, server: zz.luosi.me, port: 10002, type: ss, cipher: chacha20-ietf-poly1305, password: 7604e3f1-42fb-4396-b5a4-9bfed0511918}
@@ -42,11 +36,18 @@ proxies:
   - {name: 🇺🇸 「SCP」US-DP, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: us-dp.sharecentre.online, network: ws, ws-opts: {path: /shirker, headers: {Host: us-dp.sharecentre.online}}}
   - {name: 🇺🇸 「SCP」US-BuyVM, server: mncc.cf, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: mncc.cf, network: ws, ws-opts: {path: /shirker, headers: {Host: mncc.cf}}}
   - {name: 🇩🇪 「SCP」DE-CF1, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: de-1.sharecentre.online, network: ws, ws-opts: {path: /shirker, headers: {Host: de-1.sharecentre.online}}}
+  - {name: 🇩🇪 「SCP」DE-CF2, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: de-2.sharecentre.online, network: ws, ws-opts: {path: /shirker, headers: {Host: de-2.sharecentre.online}}}
   - {name: 🇬🇧 「SCP」UK-CF1, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: uk-1.sharecentre.online, network: ws, ws-opts: {path: /shirker, headers: {Host: uk-1.sharecentre.online}}}
   - {name: 🇬🇧 「SCP」UK-CF2, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: uk-2.sharecentre.online, network: ws, ws-opts: {path: /shirker, headers: {Host: uk-2.sharecentre.online}}}
   - {name: 🇸🇬 「SCP」SG-CF, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: sg-1.sharecentre.online, network: ws, ws-opts: {path: /shirker, headers: {Host: sg-1.sharecentre.online}}}
   - {name: 🇰🇷 「SCP」KR-CF, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: kr.sharecentre.online, network: ws, ws-opts: {path: /shirker, headers: {Host: kr.sharecentre.online}}}
   - {name: 「SCP」KH-CF, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: kh.sharecentre.online, network: ws, ws-opts: {path: /shirker, headers: {Host: kh.sharecentre.online}}}
+  - {name: "🇸🇬 -SG&Tr", server: kt.p.mkitty.top, port: 16899, type: trojan, password: 1fd1f2fb-4faa-4bde-8ecd-85831d38832b, sni: kt.p.mkitty.top, skip-cert-verify: false}
+  - {name: "🇰🇷 -KR&4", server: op.en.usdeth.top, port: 443, type: trojan, password: 1fd1f2fb-4faa-4bde-8ecd-85831d38832b, sni: op.en.usdeth.top, skip-cert-verify: false}
+  - {name: "🇯🇵 -JP&T3", server: js.ps.usdeth.t, port: 12238, type: trojan, password: 1fd1f2fb-4faa-4bde-8ecd-85831d38832b, sni: js.ps.usdeth.t, skip-cert-verify: false}
+  - {name: "🇰🇷 -KR&G", server: zi.you.usdtvfk.top, port: 443, type: trojan, password: 1fd1f2fb-4faa-4bde-8ecd-85831d38832b, sni: zi.you.usdtvfk.top, skip-cert-verify: false}
+  - {name: 🇭🇰 -HK, server: dy.d.mkitty.top, port: 443, type: trojan, password: 1fd1f2fb-4faa-4bde-8ecd-85831d38832b, sni: dy.d.mkitty.top, skip-cert-verify: false}
+  - {name: "🇰🇷 -KR&X", server: jk.jkk.mkitty.top, port: 443, type: trojan, password: 1fd1f2fb-4faa-4bde-8ecd-85831d38832b, sni: jk.jkk.mkitty.top, skip-cert-verify: false}
   - {name: 🇯🇵 AZ | JP | IPLC专线1号, server: 20.78.72.90, port: 443, type: trojan, password: 8842fadf-5e16-443f-97e3-50addf4ff2ef, sni: vzwzasc.cn, skip-cert-verify: false}
   - {name: 🇯🇵 AZ | JP | IPLC专线2号, server: 20.222.228.18, port: 443, type: trojan, password: 8842fadf-5e16-443f-97e3-50addf4ff2ef, sni: vzwzasc.cn, skip-cert-verify: false}
   - {name: 🇹🇷 土耳其, server: 141.11.127.22, port: 443, type: trojan, password: 8842fadf-5e16-443f-97e3-50addf4ff2ef, sni: vzwzasc.cn, skip-cert-verify: false}
@@ -66,16 +67,8 @@ proxies:
   - {name: 🇩🇪 德国, server: 84.252.121.218, port: 443, type: trojan, password: 8842fadf-5e16-443f-97e3-50addf4ff2ef, sni: vzwzasc.cn, skip-cert-verify: false}
   - {name: 🇺🇸 美国洛杉矶 | 允许长期跑满带宽-0.1x速, server: 104.149.155.13, port: 443, type: trojan, password: 8842fadf-5e16-443f-97e3-50addf4ff2ef, sni: vzwzasc.cn, skip-cert-verify: false}
   - {name: 🇺🇸 美国圣何塞 | 允许长期跑满带宽-0.1x速, server: 74.217.179.35, port: 443, type: trojan, password: 8842fadf-5e16-443f-97e3-50addf4ff2ef, sni: vzwzasc.cn, skip-cert-verify: false}
-  - {name: 🇸🇬 狮城1号线, server: iplc-hk02.19991314.xyz, port: 16216, type: vmess, uuid: 7fbf9e01-2f0d-497a-a657-33da74ceae78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇸🇬 狮城2号线, server: iplc-hk02.19991314.xyz, port: 64412, type: vmess, uuid: 7fbf9e01-2f0d-497a-a657-33da74ceae78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇸🇬 狮城3号线, server: iplc-hk02.19991314.xyz, port: 49227, type: vmess, uuid: 7fbf9e01-2f0d-497a-a657-33da74ceae78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇸🇬 狮城4号线, server: iplc-hk02.19991314.xyz, port: 34369, type: vmess, uuid: 7fbf9e01-2f0d-497a-a657-33da74ceae78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇯🇵 日本1号线, server: iplc-hk02.19991314.xyz, port: 52226, type: vmess, uuid: 7fbf9e01-2f0d-497a-a657-33da74ceae78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇯🇵 日本2号线, server: iplc-hk02.19991314.xyz, port: 11355, type: vmess, uuid: 7fbf9e01-2f0d-497a-a657-33da74ceae78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇮🇳 印度1号线, server: iplc-hk02.19991314.xyz, port: 14760, type: vmess, uuid: 7fbf9e01-2f0d-497a-a657-33da74ceae78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇬🇧 英国1号线, server: iplc-hk02.19991314.xyz, port: 20525, type: vmess, uuid: 7fbf9e01-2f0d-497a-a657-33da74ceae78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡A, server: 54.255.234.50, port: 43632, type: vmess, uuid: 94bbf394-b75b-4dc2-9bb4-b5a2ce1e6c9d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡B, server: 3.1.50.17, port: 43632, type: vmess, uuid: 94bbf394-b75b-4dc2-9bb4-b5a2ce1e6c9d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡A, server: 3.0.100.63, port: 43632, type: vmess, uuid: 94bbf394-b75b-4dc2-9bb4-b5a2ce1e6c9d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡B, server: 54.254.181.32, port: 43632, type: vmess, uuid: 94bbf394-b75b-4dc2-9bb4-b5a2ce1e6c9d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 🇭🇰 香港A, server: 16.163.148.83, port: 45342, type: vmess, uuid: 94bbf394-b75b-4dc2-9bb4-b5a2ce1e6c9d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 🇭🇰 香港B, server: 16.162.217.204, port: 45342, type: vmess, uuid: 94bbf394-b75b-4dc2-9bb4-b5a2ce1e6c9d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 🇭🇰 香港C, server: 16.162.118.23, port: 45342, type: vmess, uuid: 94bbf394-b75b-4dc2-9bb4-b5a2ce1e6c9d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}

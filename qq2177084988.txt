@@ -1,6 +1,14 @@
 proxies:
   - {name: QQ:2177084988, server: "null", port: 0, type: socks5, skip-cert-verify: false}
   - {name: 🇭🇰 香港红烧肉, server: 180.101.193.226, port: 10068, type: ss, cipher: aes-256-cfb, password: RsDk3peCSuo76B68}
+  - {name: 🇯🇵 日本|下载|Aws|0x, server: awsjp.xlkjjs.top, port: 443, type: vmess, uuid: f02afd21-9a72-34f3-b228-1d38207a9740, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /download, headers: {Host: awsjp.xlkjjs.top}}}
+  - {name: 🇺🇸 美国|北京联通A|BlueVPS|0.5x, server: bjcua.r1u.cn, port: 24712, type: vmess, uuid: f02afd21-9a72-34f3-b228-1d38207a9740, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 美国|北京联通B|BlueVPS|0.5x, server: bjcub.r1u.cn, port: 24713, type: vmess, uuid: f02afd21-9a72-34f3-b228-1d38207a9740, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 美国|北京联通C|BlueVPS|0.5x, server: bjcua.r1u.cn, port: 24711, type: vmess, uuid: f02afd21-9a72-34f3-b228-1d38207a9740, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇵🇱 波兰|北京联通A|BlueVPS|0.5x, server: bjcua.r1u.cn, port: 32109, type: vmess, uuid: f02afd21-9a72-34f3-b228-1d38207a9740, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇪🇪 爱沙尼亚|北京联通A|BlueVPS|0.5x, server: bjcua.r1u.cn, port: 23733, type: vmess, uuid: f02afd21-9a72-34f3-b228-1d38207a9740, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇯🇵 日本|北京联通A|纸盒|0.8x, server: bjcua.r1u.cn, port: 26180, type: vmess, uuid: f02afd21-9a72-34f3-b228-1d38207a9740, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡|北京联通A|Linode|0.8x, server: bjcua.r1u.cn, port: 39287, type: vmess, uuid: f02afd21-9a72-34f3-b228-1d38207a9740, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 🇸🇬 Singapore 02, server: gz-sg.19991314.xyz, port: 49227, type: vmess, uuid: 4b1ddb97-51ce-44cc-84f2-0a6ae6eba50d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 🇸🇬 Singapore 09, server: sz-sg.19991314.xyz, port: 16216, type: vmess, uuid: 4b1ddb97-51ce-44cc-84f2-0a6ae6eba50d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {"name":"🇸🇬HW-SG 01\r","type":"ss","server":"13.215.177.216","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}

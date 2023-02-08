@@ -1,6 +1,14 @@
 proxies:
   - {name: QQ:2177084988, server: "null", port: 0, type: socks5, skip-cert-verify: false}
-  - {name: 🇭🇰 香港红烧肉, server: 180.101.193.226, port: 10068, type: ss, cipher: aes-256-cfb, password: RsDk3peCSuo76B68}
+  - {name: "[SS] 🇭🇰 香港红烧肉", server: 180.101.193.226, port: 10068, type: ss, cipher: aes-256-cfb, password: RsDk3peCSuo76B68, udp: true}
+  - {name: "[VMess] 🇯🇵 日本|下载|Aws|0x", server: awsjp.xlkjjs.top, port: 443, type: vmess, uuid: f02afd21-9a72-34f3-b228-1d38207a9740, alterId: 0, cipher: auto, tls: true, xudp: true, skip-cert-verify: false, network: ws, ws-opts: {path: /download, headers: {Host: awsjp.xlkjjs.top}}, udp: true}
+  - {name: "[VMess] 🇺🇸 美国|北京联通A|BlueVPS|0.5x", server: bjcua.r1u.cn, port: 24712, type: vmess, uuid: f02afd21-9a72-34f3-b228-1d38207a9740, alterId: 0, cipher: auto, tls: false, xudp: true, skip-cert-verify: false, udp: true}
+  - {name: "[VMess] 🇺🇸 美国|北京联通B|BlueVPS|0.5x", server: bjcub.r1u.cn, port: 24713, type: vmess, uuid: f02afd21-9a72-34f3-b228-1d38207a9740, alterId: 0, cipher: auto, tls: false, xudp: true, skip-cert-verify: false, udp: true}
+  - {name: "[VMess] 🇺🇸 美国|北京联通C|BlueVPS|0.5x", server: bjcua.r1u.cn, port: 24711, type: vmess, uuid: f02afd21-9a72-34f3-b228-1d38207a9740, alterId: 0, cipher: auto, tls: false, xudp: true, skip-cert-verify: false, udp: true}
+  - {name: "[VMess] 🇵🇱 波兰|北京联通A|BlueVPS|0.5x", server: bjcua.r1u.cn, port: 32109, type: vmess, uuid: f02afd21-9a72-34f3-b228-1d38207a9740, alterId: 0, cipher: auto, tls: false, xudp: true, skip-cert-verify: false, udp: true}
+  - {name: "[VMess] 🇪🇪 爱沙尼亚|北京联通A|BlueVPS|0.5x", server: bjcua.r1u.cn, port: 23733, type: vmess, uuid: f02afd21-9a72-34f3-b228-1d38207a9740, alterId: 0, cipher: auto, tls: false, xudp: true, skip-cert-verify: false, udp: true}
+  - {name: "[VMess] 🇯🇵 日本|北京联通A|纸盒|0.8x", server: bjcua.r1u.cn, port: 26180, type: vmess, uuid: f02afd21-9a72-34f3-b228-1d38207a9740, alterId: 0, cipher: auto, tls: false, xudp: true, skip-cert-verify: false, udp: true}
+  - {name: "[VMess] 🇸🇬 新加坡|北京联通A|Linode|0.8x", server: bjcua.r1u.cn, port: 39287, type: vmess, uuid: f02afd21-9a72-34f3-b228-1d38207a9740, alterId: 0, cipher: auto, tls: false, xudp: true, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 HK, server: zz.luosi.me, port: 10000, type: ss, cipher: chacha20-ietf-poly1305, password: 7604e3f1-42fb-4396-b5a4-9bfed0511918}
   - {name: 🇯🇵 JP, server: zz.luosi.me, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 7604e3f1-42fb-4396-b5a4-9bfed0511918}
   - {name: 🇺🇸 US, server: zz.luosi.me, port: 10002, type: ss, cipher: chacha20-ietf-poly1305, password: 7604e3f1-42fb-4396-b5a4-9bfed0511918}

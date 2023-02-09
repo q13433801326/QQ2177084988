@@ -1,6 +1,5 @@
 proxies:
   - {name: QQ:2177084988, server: "null", port: 0, type: socks5, skip-cert-verify: false}
-  - {name: 🇭🇰 Hong Kong 1, server: hkt.52147.top, port: 80, type: vmess, uuid: 12463907-51ea-4eaf-9863-699f65430b17, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /yfjc/jp1, headers: {Host: tlu.dl.delivery.mp.microsoft.com}}}
   - {name: 🇩🇪 Germany 01 QQ:2177084988, server: de1.trojan-lite.com, port: 443, type: trojan, password: bs6KJkPBW9MP74uHEa, skip-cert-verify: false}
   - {name: "[SS] 🇭🇰 香港红烧肉", server: 180.101.193.226, port: 10068, type: ss, cipher: aes-256-cfb, password: RsDk3peCSuo76B68, udp: true}
   - {name: 🇭🇰 HK, server: zz.luosi.me, port: 10000, type: ss, cipher: chacha20-ietf-poly1305, password: 7604e3f1-42fb-4396-b5a4-9bfed0511918}

@@ -2,6 +2,7 @@ proxies:
   - {name: QQ:2177084988, server: "null", port: 0, type: socks5, skip-cert-verify: false}
   - {name: 🇩🇪 Germany 01 QQ:2177084988, server: de1.trojan-lite.com, port: 443, type: trojan, password: bs6KJkPBW9MP74uHEa, skip-cert-verify: false}
   - {name: "[SS] 🇭🇰 香港红烧肉", server: 180.101.193.226, port: 10068, type: ss, cipher: aes-256-cfb, password: RsDk3peCSuo76B68, udp: true}
+  - { name: '🇯🇵 日本07|专线|八方云', type: trojan, server: azjp7-tg-data.amazonwebservicess.com, port: 443, password: 679a506b-1c0c-423c-97f6-fc927b114add, udp: true, sni: tls.amazonwebservicess.com }
   - {name: 🇭🇰 HK, server: zz.luosi.me, port: 10000, type: ss, cipher: chacha20-ietf-poly1305, password: 7604e3f1-42fb-4396-b5a4-9bfed0511918}
   - {name: 🇯🇵 JP, server: zz.luosi.me, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 7604e3f1-42fb-4396-b5a4-9bfed0511918}
   - {name: 🇺🇸 US, server: zz.luosi.me, port: 10002, type: ss, cipher: chacha20-ietf-poly1305, password: 7604e3f1-42fb-4396-b5a4-9bfed0511918}

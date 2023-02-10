@@ -1,8 +1,5 @@
 proxies:
   - {name: QQ:2177084988, server: "null", port: 0, type: socks5, skip-cert-verify: false}
-  - {name: "🇭🇰 香港06 [高速专线]", server: 120.232.41.68, port: 2052, type: vmess, uuid: d51644d5-b2a1-46b7-a8ae-2c103cf07cd9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /xbov/6f42f0ef9d9257447d1f4d4391b4dd76e164c00fb47c0a318b3b1125e03f4d959921f11e97d0da21/media_0003.ts, headers: {Host: live14.hlzuifv.cn}}}
-  - {name: 🇩🇪 德国-1 | IPLC线路 |限速, server: 343-jdzf-fe87f54.inkcdn.cc, port: 26543, type: vmess, uuid: 0c03f80a-e132-3b73-a5ad-77b71c6cd070, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, servername: deguo.guatie888.top, network: ws, ws-opts: {path: /index, headers: {Host: deguo.guatie888.top}}}
-  - {"name":"Amazon-SG\r","type":"ss","server":"13.215.175.55","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
   - {name: 🇩🇪 Germany 01 QQ:2177084988, server: de1.trojan-lite.com, port: 443, type: trojan, password: bs6KJkPBW9MP74uHEa, skip-cert-verify: false}
   - { name: '🇯🇵 日本07|专线|八方云', type: trojan, server: azjp7-tg-data.amazonwebservicess.com, port: 443, password: 679a506b-1c0c-423c-97f6-fc927b114add, udp: true, sni: tls.amazonwebservicess.com }
   - {name: 🇭🇰 HK, server: zz.luosi.me, port: 10000, type: ss, cipher: chacha20-ietf-poly1305, password: 7604e3f1-42fb-4396-b5a4-9bfed0511918}

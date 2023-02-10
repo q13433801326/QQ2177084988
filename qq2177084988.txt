@@ -1,6 +1,7 @@
 proxies:
   - {name: QQ:2177084988, server: "null", port: 0, type: socks5, skip-cert-verify: false}
   - {name: 🇨🇳 Relay 🇹🇼 Taiwan 01 QQ:2177084988, server: in03.my1188.org, port: 63088, type: vmess, uuid: b4eebd7a-d044-3785-9775-1c7e206fc7d8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /mugua, headers: {Host: tw-load-balancer.myn1des.com}}}
+  - {name: "🇸🇬 新加坡05  [高速专线]", server: 20.212.2.205, port: 443, type: trojan, password: efee2edb-fe3f-430a-97b7-e1ea6d030dd0, sni: tls.amazonwebservicess.com, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 Relay 🇯🇵 Japan 05 QQ:2177084988, server: bjct.xn--dlq110j6ul.cc, port: 29851, type: vmess, uuid: 0c03f80a-e132-3b73-a5ad-77b71c6cd070, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /index, headers: {Host: awshk.guatie888.top}}}
   - {name: 🇩🇪 Germany 01 QQ:2177084988, server: de1.trojan-lite.com, port: 443, type: trojan, password: bs6KJkPBW9MP74uHEa, skip-cert-verify: false}
   - {name: 🇯🇵 JP, server: zz.luosi.me, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 7604e3f1-42fb-4396-b5a4-9bfed0511918}

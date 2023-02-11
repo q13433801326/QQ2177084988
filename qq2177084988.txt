@@ -43,3 +43,20 @@ proxies:
   - {name: 🇭🇰 香港 08|高速|流媒体|免流|LV5, server: hk11.sanfen001.pics, port: 443, type: vmess, uuid: ae13496e-4756-4f65-bc01-4104e296ca9c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: hk1.sanfen001.pics, network: ws, ws-opts: {path: /zh-cn, headers: {Host: hk1.sanfen001.pics}}}
   - {name: 🇭🇰 香港 09|高速|流媒体|免流|LV5, server: hk1.sanfen001.pics, port: 443, type: vmess, uuid: ae13496e-4756-4f65-bc01-4104e296ca9c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: hk1.sanfen001.pics, network: ws, ws-opts: {path: /zh-cn, headers: {Host: hk1.sanfen001.pics}}}
   - {name: 🇭🇰 香港 10|高速|流媒体|免流|LV5, server: hk80.sanfen001.pics, port: 80, type: vmess, uuid: ae13496e-4756-4f65-bc01-4104e296ca9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: www.baidu.com, network: ws, ws-opts: {path: /zh-cn/, headers: {Host: www.baidu.com}}}
+  - {name: proxy, server: 65.109.213.132, port: 8880, type: vmess, uuid: f62e0257-b757-4e2f-84a8-3eb129b09958, alterId: 0, cipher: auto, tls: false}
+  - {name: proxy 2, server: 45.33.35.41, port: 8080, type: vmess, uuid: 16652a35-1ca0-4c75-d70b-e9f129cc79bb, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 Singapore, server: 13.215.191.190, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: Ama, server: 13.124.119.204, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: proxy 3, server: 65.109.213.59, port: 22888, type: vmess, uuid: ae548895-77e0-4e19-9ac1-9e27e0bfeba3, alterId: 0, cipher: auto, tls: false}
+  - {name: proxy 4, server: 65.109.186.252, port: 35970, type: vmess, uuid: 11141d04-daee-4aac-e3ea-f758b8b15975, alterId: 0, cipher: auto, tls: false}
+  - {name: proxy 5, server: 65.109.184.85, port: 53451, type: vmess, uuid: f297c833-a718-40a0-859f-e52e9050a9a4, alterId: 0, cipher: auto, tls: false}
+  - {name: proxy 6, server: 5.75.253.146, port: 12524, type: vmess, uuid: 439e218f-ad29-4598-e24b-0048b8d99518, alterId: 0, cipher: auto, tls: false}
+  - {name: proxy 7, server: 168.119.96.66, port: 14937, type: vmess, uuid: fbbbd907-bc03-4c4a-e27d-5ac90a6e314f, alterId: 0, cipher: auto, tls: false}
+  - {name: proxy 8, server: 94.130.171.44, port: 52460, type: vmess, uuid: ab9bef83-fdb9-4687-c35e-9379110cd66f, alterId: 0, cipher: auto, tls: false}
+  - {name: proxy 9, server: 65.109.186.252, port: 35970, type: vmess, uuid: 11141d04-daee-4aac-e3ea-f758b8b15975, alterId: 0, cipher: auto, tls: false}
+  - {name: proxy 10, server: 65.109.184.85, port: 53451, type: vmess, uuid: f297c833-a718-40a0-859f-e52e9050a9a4, alterId: 0, cipher: auto, tls: false}
+  - {name: proxy 11, server: 5.75.253.146, port: 12524, type: vmess, uuid: 439e218f-ad29-4598-e24b-0048b8d99518, alterId: 0, cipher: auto, tls: false}
+  - {name: proxy 12, server: 168.119.96.66, port: 14937, type: vmess, uuid: fbbbd907-bc03-4c4a-e27d-5ac90a6e314f, alterId: 0, cipher: auto, tls: false}
+  - {name: proxy 13, server: 94.130.171.44, port: 52460, type: vmess, uuid: ab9bef83-fdb9-4687-c35e-9379110cd66f, alterId: 0, cipher: auto, tls: false}
+  - {name: proxy 14, server: 217.69.15.124, port: 24075, type: vmess, uuid: 51c6c535-636e-44de-dc2d-b2e9f4a41965, alterId: 0, cipher: auto, tls: false}
+  - {name: proxy 15, server: 217.69.15.124, port: 24075, type: vmess, uuid: 51c6c535-636e-44de-dc2d-b2e9f4a41965, alterId: 0, cipher: auto, tls: false}

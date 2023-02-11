@@ -1,16 +1,5 @@
 proxies:
   - {name: QQ:2177084988, server: "null", port: 0, type: socks5, skip-cert-verify: false}
-  - {name: proxy, server: 65.109.213.132, port: 8880, type: vmess, uuid: f62e0257-b757-4e2f-84a8-3eb129b09958, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: proxy 2, server: 45.33.35.41, port: 8080, type: vmess, uuid: 16652a35-1ca0-4c75-d70b-e9f129cc79bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇸🇬 Singapore, server: 13.215.191.190, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: Ama, server: 13.124.119.204, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇨🇳 Relay 🇹🇼 Taiwan 01 QQ:2177084988, server: in03.my1188.org, port: 63088, type: vmess, uuid: b4eebd7a-d044-3785-9775-1c7e206fc7d8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /mugua, headers: {Host: tw-load-balancer.myn1des.com}}}
-  - {name: 🇯🇵 2177084988-东京1, server: jp.x5555.xyz, port: 14131, type: vmess, uuid: a65e5b1c-0b37-45e5-f753-ab989978c358, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: 🇯🇵 2177084988-东京2, server: jp.x5555.xyz, port: 14131, type: vmess, uuid: a65e5b1c-0b37-45e5-f753-ab989978c358, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: 🇯🇵 2177084988-大阪1, server: jp.x8888.xyz, port: 33071, type: vmess, uuid: 0142656c-f839-40d7-8f2b-6ee549edc865, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: 🇯🇵 2177084988-大阪2, server: jp.x8888.xyz, port: 33071, type: vmess, uuid: 0142656c-f839-40d7-8f2b-6ee549edc865, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: 🇭🇰 2177084988-香港1, server: hk.x7777.xyz, port: 13161, type: vmess, uuid: 21ac4e50-6f63-4161-a539-e2bb20b86d56, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: 🇭🇰 2177084988-香港2, server: hk.x7777.xyz, port: 13161, type: vmess, uuid: 21ac4e50-6f63-4161-a539-e2bb20b86d56, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
   - {name: 🇯🇵 JP, server: zz.luosi.me, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 7604e3f1-42fb-4396-b5a4-9bfed0511918}
   - {name: 🇺🇸 US, server: zz.luosi.me, port: 10002, type: ss, cipher: chacha20-ietf-poly1305, password: 7604e3f1-42fb-4396-b5a4-9bfed0511918}
   - {name: 🇨🇳 TW, server: zz.luosi.me, port: 10003, type: ss, cipher: chacha20-ietf-poly1305, password: 7604e3f1-42fb-4396-b5a4-9bfed0511918}
